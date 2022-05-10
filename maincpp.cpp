@@ -15,14 +15,14 @@ int main()
 {
 
 	cin >> Count;
-	cout << " " << " ";
+	
 	int* New = new int[Count];
 
 	for (int i = 0; i < Count; ++i)
 	{
-		cin >> New[i];
-
 		cout << " " << " ";
+
+		cin >> New[i];
 
 	}
 
